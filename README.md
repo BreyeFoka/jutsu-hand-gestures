@@ -59,6 +59,15 @@ Hold each mudra for a short, stable moment before switching to the next sign.
 - Stay about an arm's length from camera so fingers are clearly visible.
 - If tracking drops, open/close your hand once, then restart the sequence.
 
+## Tests
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
+The tests cover the hand-sign rules and jutsu sequence matching in `mudra_engine.py`, without a camera. GitHub Actions runs them on every push.
+
 ## Notes
 
 - This is a fast prototype with rule-based mudra classification, not a trained model.
