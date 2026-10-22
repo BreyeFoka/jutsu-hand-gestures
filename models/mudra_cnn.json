@@ -1,0 +1,22 @@
+{
+  "model_path": "models/mudra_cnn.pt",
+  "class_names": [
+    "bird",
+    "boar",
+    "dog",
+    "dragon",
+    "hare",
+    "horse",
+    "monkey",
+    "ox",
+    "ram",
+    "rat",
+    "snake",
+    "tiger",
+    "zero"
+  ],
+  "image_size": 128,
+  "val_acc": 0.9226006191950464,
+  "test_acc": 0.12790697674418605,
+  "dataset": "dataset"
+}
